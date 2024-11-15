@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:if="${recPerimetr!=null}"> Периметр прямоугольника = <span th:text="${recPerimetr}"></span></p>
+<p th:if="${recArea!=null}" > Площадь прямоугольника = <span th:text="${recArea}"></span></p>
+<p th:if="${errorMes!=null}"> Ошибка : <span th:text="${errorMes}"></span></p>
+<!--<p th:if="${res!=null}"> Результат = <span th:text="${res}"></span></p>-->
+
+</body>
+</html>

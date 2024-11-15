@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Rectangle {
     double width, length;
 
+
     public Rectangle(double width, double length) throws GeometryException {
         if (width <0)
             throw new NegativeLengthException(width, "Отрицательная ширина");
